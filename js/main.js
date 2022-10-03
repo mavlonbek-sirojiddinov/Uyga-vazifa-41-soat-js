@@ -8,8 +8,8 @@ let month = dateNow.getMonth() + 1;
 let date = dateNow.getDate();
 
 elYear.textContent = year;
-elMonth.textContent = month;
-elDay.textContent = date;
+elMonth.textContent = (month < 10) ? '0' + month : month;
+elDay.textContent = (date < 10) ? '0' + date : date;
 
 let elHour = document.querySelector(".hour");
 let elminut = document.querySelector(".minut");
