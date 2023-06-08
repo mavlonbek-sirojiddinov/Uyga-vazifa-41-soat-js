@@ -11,11 +11,17 @@
 
 body {
   background: black;
-  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
 }
 
 .years {
-  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -50,7 +56,9 @@ body {
                0 0 40px red;
 }
 .hours {
-  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
